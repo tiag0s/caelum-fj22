@@ -8,11 +8,12 @@ Rascunho de Aulas
  # Rascunho de Aulas
 
 
+## Notas:
 
-* material kit
-*Brackets
+* Material kit
+* Brackets
 
-
+___________________________________
 	[working directory]
 ___________________________________	
 	[staging area]
@@ -39,7 +40,7 @@ Comandos Git
 
 
 
--------------
+___________________________________
 
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -90,6 +91,6 @@ src/main/webapp/ - pasta WEB-INF com seus arquivos internos (web.xml, por exempl
 JSP.
 src/test/java - classes de testes.
 src/test/reso
-
+___________________________________
 
 	
