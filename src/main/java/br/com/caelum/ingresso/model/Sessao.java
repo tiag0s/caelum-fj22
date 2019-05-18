@@ -10,9 +10,9 @@ public class Sessao {
 	private Filme filme;
 
 	public Sessao(LocalTime horario, Filme filme, Sala sala) {
-	this.horario = horario;
-	this.filme = filme;
-	this.sala = sala;
+		this.horario = horario;
+		this.filme = filme;
+		this.sala = sala;
 	}
 
 	public Integer getId() {
@@ -46,7 +46,5 @@ public class Sessao {
 	public void setFilme(Filme filme) {
 		this.filme = filme;
 	}
-	
-	
-	
+
 }

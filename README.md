@@ -13,7 +13,12 @@ LAB8165 - CAELUM3BF4
 * Material kit
 * Brackets
 * GITHUB/GITLAB
-* 
+* DONTPAD
+               * CTRL+SHIFT+F = FORMATA O CODIGO
+               * CTRL+3 = ABRE BARRA ACESSO RAPIDO
+               * CRLT+SHIFT+O = OBTEM DEPENDENCIAS
+
+
 
 ___________________________________
 	[working directory]
