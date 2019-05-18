@@ -3,7 +3,7 @@
 * [Apostila online](https://www.caelum.com.br/apostila-java-testes-jsf-web-services-design-patterns/) 
 * [Apostila offline](https://www.caelum.com.br/download/caelum-java-testes-jsf-web-services-design-patterns-fj22.pdf) 
 
-Rascunho de Aulas
+LAB8165 - CAELUM3BF4
 
  # Rascunho de Aulas
 
@@ -12,6 +12,8 @@ Rascunho de Aulas
 
 * Material kit
 * Brackets
+* GITHUB/GITLAB
+* 
 
 ___________________________________
 	[working directory]
