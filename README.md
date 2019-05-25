@@ -10,25 +10,26 @@ LAB8165 - CAELUM3BF4
 
 ## Notas:
 
-* Material kit
+* Material Kit
 * Brackets
 * GITHUB/GITLAB
 * DONTPAD
 * CTRL+SHIFT+F = FORMATA O CODIGO
 * CTRL+3 = ABRE BARRA ACESSO RAPIDO
 * CRLT+SHIFT+O = OBTEM DEPENDENCIAS
-*TESTE
+* JODATIME
+* TESTE2
 
 
 
-___________________________________
+___________________________________	
 	[working directory]
 ___________________________________	
 	[staging area]
 ___________________________________
 	[repository]
 
-Comandos Git
+#### Comandos Git
 
 	$ git init - Criar repositorio
 
@@ -51,6 +52,6 @@ Comandos Git
 ___________________________________
 
 
-teste
+
 
 
