@@ -1,5 +1,7 @@
 package br.com.caelum.ingresso.model;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalTime;
 
 import javax.persistence.Entity;
@@ -14,6 +16,16 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Entity
 public class Sessao {
 
+	private BigDecimal preco = new BigDecimal("0.0");
+	
+
+
+	/**
+	* @deprecated hibernate only
+	*/
+	public Sessao() {
+	}
+	
 	
 	
 	@Id
@@ -34,8 +46,21 @@ public class Sessao {
 		this.horario = horario;
 		this.filme = filme;
 		this.sala = sala;
-	}
+		this.preco = sala.getPreco().add(filme.getPreco());
+		}
 
+	public BigDecimal getPreco() {
+		if (preco!= null) {
+			return preco.setScale(2, RoundingMode.HALF_UP);
+		}else return preco;
+		
+	}
+		public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+		}
+
+	
+	
 	public Integer getId() {
 		return id;
 	}
@@ -68,6 +93,6 @@ public class Sessao {
 		this.filme = filme;
 	}
 	
-	public Sessao() {}
+	
 
 }
