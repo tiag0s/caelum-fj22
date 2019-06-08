@@ -48,6 +48,7 @@ ___________________________________
 		date 18/05/19 09:00
 
 
+<<<<<<< HEAD
 __________________________________
 
 $ git add .
@@ -60,6 +61,15 @@ $ git checkout master
 $ git merge work
 $ git push
 $ git branch -d work
+=======
+___________________________________
+>>>>>>> 895d5645210e28678c6fb9aa2161542bb0b69256
+
+
+
+||cabeçalho 1||cabeçalho 2||cabeçalho 3||
+|célula A1|célula A2|célula A3|
+|célula B1|célula B2|célula B3|
 
 
 
