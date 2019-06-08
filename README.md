@@ -48,8 +48,18 @@ ___________________________________
 		date 18/05/19 09:00
 
 
+__________________________________
 
-___________________________________
+$ git add .
+$ git commit -m "Comentario" 
+$ git checkout master
+$ git pull
+$ git checkout work
+$ git rebase master
+$ git checkout master
+$ git merge work
+$ git push
+$ git branch -d work
 
 
 
