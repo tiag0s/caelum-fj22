@@ -60,7 +60,7 @@ $ git rebase master
 $ git checkout master
 $ git merge work
 $ git push
-$ git branch -d work
+$ git branch -d workf
 =======
 ___________________________________
 >>>>>>> 895d5645210e28678c6fb9aa2161542bb0b69256
