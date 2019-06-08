@@ -35,4 +35,14 @@ public class Carrinho {
 		return ingressos.stream().map(Ingresso::getPreco).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
 	}
 	
+	public Compra toCompra() {
+		return new Compra(ingressos);
+	}
+	
+	public void limpa() {
+		this.ingressos.clear();
+	}
+	
+	
+	
 }
